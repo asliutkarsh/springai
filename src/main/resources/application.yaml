@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: springai
+
+    ai:
+        azure:
+            openai:
+                api-key: ${AZURE_OPENAI_API_KEY}
+                endpoint: ${AZURE_OPENAI_ENDPOINT}
+                chat:
+                    options:
+                        deployment-name: ${AZURE_OPENAI_DEPLOYMENT_NAME}
